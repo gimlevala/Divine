@@ -1,7 +1,7 @@
 @echo off
 :: this batch files purpose is to be used for boredom, you will have the choice between addition, subtraction and multiplication.
 :: there is 20 levels in all off them. enjoy...
-:: Creator - Piss Ex Nihilo
+:: Creator - Lemmy_Konfutse
 
 
 title Divine
@@ -90,6 +90,7 @@ set /a ra1=%random% %%81
 set /a ra2=%random% %%81
 set /a result=%ra1%+%ra2%
 
+::-The code below shows the result.
 ::echo %result%
 ::echo.
 
