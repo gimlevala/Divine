@@ -65,6 +65,7 @@ set /p menuc="-I-: "
 if %menuc%==+ goto 1
 if %menuc%==x goto 2
 if %menuc%==- goto 3
+if %menuc%==exit exit
 
 goto menu 
 
@@ -91,8 +92,8 @@ set /a ra2=%random% %%81
 set /a result=%ra1%+%ra2%
 
 ::-The code below shows the result.
-::echo %result%
-::echo.
+echo %result%
+echo.
 
 set /p "m1=%ra1%+%ra2%? "
 
