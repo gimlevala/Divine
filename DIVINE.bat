@@ -35,7 +35,7 @@ echo	     _)(_  )  (  )(_) ))(__)( \__ \  )(   )   / _)(_  )__) \__ \
 echo	    (____)(_)\_)(____/(______)(___/ (__) (_)\_)(____)(____)(___/
 echo.
 echo.
-echo                            Copyright 2019©
+echo                            Copyright 2020©
 timeout /t 3 >nul
 goto menu
 
